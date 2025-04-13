@@ -15,4 +15,4 @@ def connect_to_db():
         )
         return conn
     except Exception as e:
-        return f"Unable to connect to the database due an error: {e}"
+        return print(f"Unable to connect to the database due an error: {e}")
